@@ -15,7 +15,6 @@
 		9608B59C17BB9EE6004C0DEA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9608B59B17BB9EE6004C0DEA /* MediaPlayer.framework */; };
 		9608B59E17BB9EF6004C0DEA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9608B59D17BB9EF6004C0DEA /* AVFoundation.framework */; };
 		9608B5C317BBA253004C0DEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9608B5B117BBA253004C0DEA /* AppDelegate.m */; };
-		9608B5C417BBA253004C0DEA /* GSBackGroundMoviePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9608B5B317BBA253004C0DEA /* GSBackGroundMoviePlayer.m */; };
 		9608B5C517BBA253004C0DEA /* GSBackGroundMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9608B5B517BBA253004C0DEA /* GSBackGroundMoviePlayerViewController.m */; };
 		9608B5E017BBA276004C0DEA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9608B5D317BBA276004C0DEA /* Default-568h@2x.png */; };
 		9608B5E117BBA276004C0DEA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9608B5D417BBA276004C0DEA /* Default.png */; };
@@ -47,8 +46,6 @@
 		9608B59D17BB9EF6004C0DEA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9608B5B017BBA253004C0DEA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9608B5B117BBA253004C0DEA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9608B5B217BBA253004C0DEA /* GSBackGroundMoviePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSBackGroundMoviePlayer.h; sourceTree = "<group>"; };
-		9608B5B317BBA253004C0DEA /* GSBackGroundMoviePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSBackGroundMoviePlayer.m; sourceTree = "<group>"; };
 		9608B5B417BBA253004C0DEA /* GSBackGroundMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSBackGroundMoviePlayerViewController.h; sourceTree = "<group>"; };
 		9608B5B517BBA253004C0DEA /* GSBackGroundMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSBackGroundMoviePlayerViewController.m; sourceTree = "<group>"; };
 		9608B5D317BBA276004C0DEA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -139,8 +136,6 @@
 			children = (
 				9608B5B017BBA253004C0DEA /* AppDelegate.h */,
 				9608B5B117BBA253004C0DEA /* AppDelegate.m */,
-				9608B5B217BBA253004C0DEA /* GSBackGroundMoviePlayer.h */,
-				9608B5B317BBA253004C0DEA /* GSBackGroundMoviePlayer.m */,
 				9608B5B417BBA253004C0DEA /* GSBackGroundMoviePlayerViewController.h */,
 				9608B5B517BBA253004C0DEA /* GSBackGroundMoviePlayerViewController.m */,
 			);
@@ -258,7 +253,6 @@
 			files = (
 				9608B57F17BB98D4004C0DEA /* main.m in Sources */,
 				9608B5C317BBA253004C0DEA /* AppDelegate.m in Sources */,
-				9608B5C417BBA253004C0DEA /* GSBackGroundMoviePlayer.m in Sources */,
 				9608B5C517BBA253004C0DEA /* GSBackGroundMoviePlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

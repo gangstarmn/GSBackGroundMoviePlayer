@@ -43,6 +43,9 @@
 {
     self = [super initWithNibName:nil bundle:nil];
     if (self) {
+        [[UIApplication sharedApplication] setStatusBarHidden:YES];
+        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque];
+        
         [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
         [[AVAudioSession sharedInstance] setActive: YES error: nil];
 
@@ -201,6 +204,7 @@
     [super viewDidAppear:animated];
     [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
     self.videoLayer.frame = self.view.bounds;
+    headerView.frame = CGRectMake(0, 0, self.view.bounds.size.width, 44);
     [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
     [self becomeFirstResponder];
 }
